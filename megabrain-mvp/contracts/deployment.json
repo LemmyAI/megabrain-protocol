@@ -1,0 +1,11 @@
+{
+  "network": "sepolia",
+  "chainId": 11155111,
+  "deployer": "0xE6124E76C6c97ee22B3ac925056127c698dDD52B",
+  "contracts": {
+    "MockUSDC": "0x239165787f67BD681BAffA0dd19dBC7134c495FF",
+    "MegaBrainRegistry": "0x30902551cBF99c752fa196262001ffC84C8a8cA2",
+    "MegaBrainTaskManager": "0xe1541D3F47A305892aB9962FE88Be569a51B2d0f"
+  },
+  "timestamp": "2026-02-05T19:31:13.632Z"
+}

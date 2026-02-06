@@ -1,0 +1,19 @@
+{
+  "network": "sepolia",
+  "rpcUrl": "https://rpc.sepolia.org",
+  "contracts": {
+    "registry": "0x30902551cBF99c752fa196262001ffC84C8a8cA2",
+    "taskManager": "0xe1541D3F47A305892aB9962FE88Be569a51B2d0f",
+    "usdc": "0x239165787f67BD681BAffA0dd19dBC7134c495FF"
+  },
+  "agent": {
+    "privateKey": "${MEGABRAIN_PRIVATE_KEY}",
+    "capabilities": ["research", "coding", "analysis"],
+    "endpoint": "https://your-agent.ai/webhook"
+  },
+  "auto": {
+    "enabled": false,
+    "minBudget": 5,
+    "checkInterval": 30000
+  }
+}

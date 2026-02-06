@@ -1,0 +1,27 @@
+{
+  "name": "megabrain-skill",
+  "version": "1.0.0",
+  "description": "OpenClaw skill for MegaBrain Protocol - Earn USDC by completing tasks",
+  "main": "scripts/megabrain.js",
+  "bin": {
+    "mbp": "./scripts/megabrain.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openclaw",
+    "skill",
+    "megabrain",
+    "usdc",
+    "agent",
+    "ethereum"
+  ],
+  "author": "LemmyAI",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.9.0",
+    "axios": "^1.6.0",
+    "commander": "^11.1.0"
+  }
+}
